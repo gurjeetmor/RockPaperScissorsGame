@@ -1,0 +1,55 @@
+﻿<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Rock Paper Scissor Game</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <header>
+        <h1>Rock Paper Scissors</h1>
+    </header>
+    <div class="score-board">
+        <div id="user-label" class="tag">User</div>
+        <div id="computer-label" class="tag">Computer</div>
+        <span id="user-score">0</span> : <span id="computer-score">0</span>
+    </div>
+    <div class="result">
+        <p>Choose either Rock, Paper or Scissors</p>
+    </div>
+    <div class="game-board">
+        <div class="user-board">
+            <div class="board-label">User</div>
+            <div class="options">
+                <div id="rock" title="Rock">
+                    <img src="img/rock.png" alt="" class="option" />
+                    <p class="name">Rock</p>
+                </div>
+                <div id="paper" title="Paper">
+                    <img src="img/paper.png" alt="" class="option" />
+                    <p class="name">Paper</p>
+                </div>
+                <div id="scissors" title="Scissors">
+                    <img src="img/scissors.png" alt="" class="option" />
+                    <p class="name">Scissors</p>
+                </div>
+            </div>
+
+        </div>
+        <div class="result-board">
+            <div class="vs-text">VS</div>
+        </div>
+        <div class="computer-board">
+            <div class="board-label">Computer</div>
+            <img src="img/computer.png" alt="" class="comp-img" />
+        </div>
+    </div>
+   
+    <div id="action">
+      
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
